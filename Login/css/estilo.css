@@ -49,66 +49,29 @@ body{
      width: 150px;
      display: block; 
  }
- .menu-lat{
-    width: 150px;
-	float: left;
-	text-align: center;
- }
- ul li a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    padding: 22px;
-    border-bottom: 0;
-    width: 120px;
-    border-bottom: 1px solid #35013F;
- }
-
-.jogos .Destaques {
-    color: white;
-    padding: 30px;
-    left: 100px;
-    text-align: center;
+ fieldset{
+    font-weight: 100;
+    margin-bottom: 30px;
+    padding: 20px;
 }
-.games {
-    position: relative;
+form{
+    font: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
-.jogos .jogo1,
-.jogos .jogo2,
-.jogos .jogo3,
-.jogos .jogo4 {
-    color: white;
-    text-align: center;
-    width: 50%;
-    position: absolute;
-    font-size: 20px;
+label{
+    font-weight: 800;
+    margin-left: 15px;
 }
-
-.jogos .jogo1 {
-    left: 0;
-}
-
-.jogos .jogo2 {
-    left: 250px;
-}
-
-.jogos .jogo3 {
-    left: 500px;
-}
-
-.jogos .jogo4 {
-    left: 750px;
-}
-
-
-.jogo1 img,
-.jogo2 img,
-.jogo3 img,
-.jogo4 img {
+input, textarea, select{
     width: 200px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px;
 }
-.texto-footer{
+ .texto-footer{
     text-align: center;
     color: black;
     padding: 15px;

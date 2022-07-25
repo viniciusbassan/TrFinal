@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daera</title>
-    <link rel="stylesheet" href="./css/estilo.css"> 
+    <link rel="stylesheet" href="./css/estilo.css">
+    
 </head>
 <body>
 	<header>
@@ -29,25 +33,34 @@
 			<li class="b"><a href="#">Usuário</a> 
 			  <ul class="c">
                 <li><a href="#">Login</a></li>  
-				<li><a href="../Registro/Registro.html">Registro</a></li> 
+				<li><a href="#">Registro</a></li> 
 			  </ul>
 			</li> 
 		  </ul>
 		</div>
 		</header>
-		<div class="menu-lat">
-			<ul>
-				<li><a href="./Ação.html">Ação</a></li>
-				<li><a href="./Aventura/Aventura.html">Aventura</a></li>
-				<li><a href="./RPG/RPG.html">RPG</a></li>
-				<li><a href="./Simulação/">Simulação</a></li>
-				<li><a href="./Puzzle/Puzzle.html">Puzzle</a></li>
-				<li><a href="./Esportes/Esportes.html">Esportes</a></li>
-				<li><a href="./Estratégia/Estratégia.html">Estratégia</a></li>
-				<li><a href="./Clássicos/Clássicos.html">Clássicos</a></li>
-			</ul>
-		</div>
-
+		<div class="container">
+			<div class="form-title">
+				<h2>Formulário de Registro</h2>
+			</div>
+			<div>
+				<form action="dados.php" method="post">
+	
+					<fieldset>
+						<legend>Login</legend>
+						
+						<div class="user">
+						<label for="user">Nome de Usuário</label>
+						<input type="text" name="nome" placeholder="Ex: Pedro">
+						</div>
+	
+						<div class="senha">
+						<label for="senha">Senha</label>
+						<input type="password" name="senha" placeholder="********">
+						</div>
+						<input class="Sign In" type="submit" value="Login">
+						<input type="reset">		
+				</form>
 		  
 	</body>
 	<footer>

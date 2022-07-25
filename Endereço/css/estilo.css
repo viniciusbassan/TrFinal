@@ -58,61 +58,12 @@ body{
     display: block;
     text-decoration: none;
     color: white;
-    padding: 22px;
+    padding: 25px;
     border-bottom: 0;
-    width: 120px;
+    width: 150px;
     border-bottom: 1px solid #35013F;
  }
-
-.jogos .Destaques {
-    color: white;
-    padding: 30px;
-    left: 100px;
-    text-align: center;
-}
-.games {
-    position: relative;
-}
-
-.jogos .jogo1,
-.jogos .jogo2,
-.jogos .jogo3,
-.jogos .jogo4 {
-    color: white;
-    text-align: center;
-    width: 50%;
-    position: absolute;
-    font-size: 20px;
-}
-
-.jogos .jogo1 {
-    left: 0;
-}
-
-.jogos .jogo2 {
-    left: 250px;
-}
-
-.jogos .jogo3 {
-    left: 500px;
-}
-
-.jogos .jogo4 {
-    left: 750px;
-}
-
-
-.jogo1 img,
-.jogo2 img,
-.jogo3 img,
-.jogo4 img {
-    width: 200px;
-}
-.texto-footer{
-    text-align: center;
-    color: black;
-    padding: 15px;
-}
+ 
  footer{
     background:white;
     width: 100%;

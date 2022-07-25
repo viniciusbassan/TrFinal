@@ -58,12 +58,16 @@ body{
     display: block;
     text-decoration: none;
     color: white;
-    padding: 25px;
+    padding: 20px;
     border-bottom: 0;
     width: 150px;
     border-bottom: 1px solid #35013F;
  }
- 
+ .texto-footer{
+    text-align: center;
+    color: black;
+    padding: 15px;
+}
  footer{
     background:white;
     width: 100%;
