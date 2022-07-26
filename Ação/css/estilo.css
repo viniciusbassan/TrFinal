@@ -9,8 +9,7 @@ header{
     z-index: 100;
 }
 body{
-    background-image: linear-gradient(to right, #000000, #35013F, #561050, #35013F, #000000);
-
+    background-color: black;
 }
 .logo{
     width: 120px;
@@ -63,6 +62,45 @@ body{
     width: 150px;
     border-bottom: 1px solid #35013F;
  }
+ .games {
+    position: relative;
+    padding: 40px;
+}
+
+.jogos .jogo1,
+.jogos .jogo2,
+.jogos .jogo3,
+.jogos .jogo4 {
+    color: white;
+    text-align: center;
+    width: 50%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.jogos .jogo1 {
+    left: 0;
+}
+
+.jogos .jogo2 {
+    left: 250px;
+}
+
+.jogos .jogo3 {
+    left: 500px;
+}
+
+.jogos .jogo4 {
+    left: 750px;
+}
+
+
+.jogo1 img,
+.jogo2 img,
+.jogo3 img,
+.jogo4 img {
+    width: 200px;
+}
  .texto-footer{
     text-align: center;
     color: black;

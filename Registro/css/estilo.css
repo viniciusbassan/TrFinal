@@ -9,7 +9,7 @@ header{
     z-index: 100;
 }
 body{
-    background-image: linear-gradient(to right, #000000, #35013F, #561050, #35013F, #000000);
+    background-image: url(../img/games.png);
 
 }
 .logo{
