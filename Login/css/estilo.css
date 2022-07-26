@@ -49,15 +49,30 @@ body{
      width: 150px;
      display: block; 
  }
- fieldset{
+ .container{
+    max-width: 960px;
+    margin: auto;
+    background: #561050;
+}
+
+fieldset{
     font-weight: 100;
     margin-bottom: 30px;
     padding: 20px;
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    top: 200px;
+    left: 550px;
 }
 form{
     font: 15px;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 label{
     font-weight: 800;
